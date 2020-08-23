@@ -1,0 +1,67 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.financecontent{
+    font-size:1rem;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    background-color: #00688B;
+    color:white;
+    padding-left: 5%;
+    border-left: 12px solid darkorange;
+    
+}
+.heading{
+   text-align: left;
+   color:white;
+}
+.formChild{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:15px;
+    
+}
+.submitButtonFinance{
+    display: block;
+    width: 50%;
+    height:15%;
+    background-color: white;
+    color:#00688B;
+    border-radius: 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    transition:0.2s;
+    border:none;
+
+}
+
+.submitButtonFinance:hover{
+   
+    box-shadow: 2px 4px rgb(70, 69, 69);
+    color:darkorange;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 767px){
+    .financecontent{
+        font-size:0.5rem;
+    }
+.submitButtonFinance{
+    font-size:0.5rem;
+}
+}
+@media screen and (min-width: 767px){
+    .financecontent{
+        font-size:1rem;
+    }
+    .submitButtonFinance{
+        font-size:1rem;
+    }
+}

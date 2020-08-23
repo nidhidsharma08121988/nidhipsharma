@@ -1,0 +1,46 @@
+
+
+*{
+    box-sizing: border-box;
+    display: flex;
+}
+
+.navigation{
+    
+    width:100%;
+    height:70px;
+    background-color: white;
+   
+}
+
+.navItem{
+    display:inline-block;
+    width:20%;
+    color:#2F4F4F;
+    text-align: center;
+    padding:20px;
+    transition: 0.4s;
+    background-color:white;
+    border:none;
+    text-decoration: none;
+}
+
+.navItem:hover{
+    background-color:#B0E0E6;
+    opacity: 1;
+    border-bottom:3px solid darkorange;
+    color: black;
+}
+
+@media screen and (max-width: 767px){
+    .navItem{
+        font-size: 0.5rem;
+    }
+
+}
+@media screen and (min-width: 767px){
+    .navItem{
+        font-size: 1rem;
+    }
+
+}
