@@ -51,34 +51,35 @@ module.exports = {
 		resolve: { alias, extensions, mainFields },
 		externals: Object.keys(pkg.dependencies).concat('encoding'),
 		module: {
-			
+			rules: [
+
 				{
-	test: /\.(svelte|html)$/,
-		use: {
-		loader: 'svelte-loader',
-			options: {
-			css: false,
-				generate: 'ssr',
-					hydratable: true,
-						dev
-		}
-	}
-}
+					test: /\.(svelte|html)$/,
+					use: {
+						loader: 'svelte-loader',
+						options: {
+							css: false,
+							generate: 'ssr',
+							hydratable: true,
+							dev
+						}
+					}
+				}
 			]
 		},
-mode,
-	plugins: [
-		new WebpackModules()
-	],
+		mode,
+		plugins: [
+			new WebpackModules()
+		],
 
 		performance: {
-	hints: false // it doesn't matter if server.js is large
-}
+			hints: false // it doesn't matter if server.js is large
+		}
 	},
 
-serviceworker: {
-	entry: config.serviceworker.entry(),
+	serviceworker: {
+		entry: config.serviceworker.entry(),
 		output: config.serviceworker.output(),
-			mode
-}
+		mode
+	}
 };
