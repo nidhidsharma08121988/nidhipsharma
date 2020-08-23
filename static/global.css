@@ -1,42 +1,242 @@
-@import "../src/styles/FinanceStyle.css";
-@import "../src/styles/HomeFinanceStyle.css";
-@import "../src/styles/HomeStyle.css";
-@import "../src/styles/NavigationBarStyle.css";
 
-/* 
+
+*{
+    box-sizing: border-box;
+}
+
+.financecontent{
+    font-size:1rem;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    background-color: #00688B;
+    color:white;
+    padding-left: 5%;
+    border-left: 12px solid darkorange;
+    
+}
+.heading{
+   text-align: left;
+   color:white;
+}
+.formChild{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:15px;
+    
+}
+.submitButtonFinance{
+    display: block;
+    width: 50%;
+    height:15%;
+    background-color: white;
+    color:#00688B;
+    border-radius: 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    transition:0.2s;
+    border:none;
+
+}
+
+.submitButtonFinance:hover{
+   
+    box-shadow: 2px 4px rgb(70, 69, 69);
+    color:darkorange;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width: 767px){
+    .financecontent{
+        font-size:0.5rem;
+    }
+.submitButtonFinance{
+    font-size:0.5rem;
+}
+}
+@media screen and (min-width: 767px){
+    .financecontent{
+        font-size:1rem;
+    }
+    .submitButtonFinance{
+        font-size:1rem;
+    }
+}
+.homePageFinance{
+    
+    width:100%;
+    height:100%;
+    background-color: #00688B;
+}
+.homeFinanceContainer{
+    display:flex;
+    flex-direction: row;
+    padding-left:1%;
+    padding-top:4%;
+
+}
+
+.navTab{
+    background-color: #00688B;
+    padding-top:2%;
+    padding-left:2%;
+    padding-right: 2%;
+    border:none;
+    flex-direction: column;
+    display:flex;
+
+}
+.tabItem{
+    font-size:1rem;
+    display:block;
+    border:none;
+    margin-bottom: 10px;
+    color:white;
+    background-color: #00688B;
+    border-bottom: 1px solid darkorange;
+}
+.tabItem:hover{
+    border-bottom:3px solid darkorange;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px){
+    .tabItem{
+        font-size:0.5rem;
+    }
+
+}
+@media screen and (min-width: 767px){
+    .tabItem{
+        font-size:1rem;
+    }
+   
+}
+
 body {
-	margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	color: #333;
+	width:100%;
+	height:100%;
+	background-color:#00688B;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 0.5em 0;
-	font-weight: 400;
-	line-height: 1.2;
+.aboutMeSection{
+   width:100%;
+   display:flex;
+   flex-direction: column;
+  
 }
 
-h1 {
-	font-size: 2em;
+
+.aboutMeHead{
+   color:white;
+   text-align: center;
+   width:100%;
+   height: 20%;
 }
 
-a {
-	color: inherit;
+.imageContainer{
+	display:flex;
+	width:100%;
+	height:20%;
+	justify-content: center;
 }
 
-code {
-	font-family: menlo, inconsolata, monospace;
-	font-size: calc(1em - 2px);
-	color: #555;
-	background-color: #f0f0f0;
-	padding: 0.2em 0.4em;
-	border-radius: 2px;
+.NidhiImage{
+
+   width:20%;
+   height:20%;
+   position:relative;;
+   border-radius: 50%;
+   margin: 0 auto;
+   
 }
 
-@media (min-width: 400px) {
-	body {
-		font-size: 16px;
-	}
-} */
+.subHead{
+   color:darkorange;
+   font-style: oblique;
+}
+
+.aboutMeText{
+	display:flex;
+	flex-direction: column;
+	padding-left:25%;
+	padding-right:25%;
+	color:whitesmoke;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-items: center;
+	justify-content: center;
+  
+}
+.credits{
+	font-style: oblique;
+}
+.creditshead{
+   color:darkorange;
+}
+@media screen and (max-width: 767px){
+   .aboutMeText{
+	   font-size: 0.5rem;
+   }
+   .aboutMeHead{
+	   font-size: 1rem;
+   }
+   
+
+}
+
+@media screen and (min-width: 767px){
+   
+   .aboutMeText{
+	   font-size: 1rem;
+   }
+   .aboutMeHead{
+	   font-size: 1.5rem;
+   }
+ 
+}
+
+.navigation{
+    
+    width:100%;
+    height:70px;
+    background-color: white;
+   
+}
+
+.navItem{
+    display:inline-block;
+    width:20%;
+    color:#2F4F4F;
+    text-align: center;
+    padding:20px;
+    transition: 0.4s;
+    background-color:white;
+    border:none;
+    text-decoration: none;
+}
+
+.navItem:hover{
+    background-color:#B0E0E6;
+    opacity: 1;
+    border-bottom:3px solid darkorange;
+    color: black;
+}
+
+@media screen and (max-width: 767px){
+    .navItem{
+        font-size: 0.5rem;
+    }
+
+}
+@media screen and (min-width: 767px){
+    .navItem{
+        font-size: 1rem;
+    }
+
+}

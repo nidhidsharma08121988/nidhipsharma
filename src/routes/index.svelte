@@ -8,9 +8,9 @@
     "<p>This is the first website I actually deployed. Its' my first experience with Svelte,Sapper and Scss. It was quite a journey - designing website, learning Svelte, Sapper, Scss and finally deploying my website.</p><p> Journeys are always very crucial part of whatever you want to achieve, I would say they are even more important than the goal itself, because journey is the place where actual growth happens.</p> <p>Journeys are blissful if you have a special someone besides you, in my case, it was my husband, Pankaj Sharma - he not even guided me when I was lost but also acted like a cheerleader for me. He was the reason I could take this brave step and meet my passion of designing and creating beautiful applications - again! It would be impossible for me to deliver without him being on my side and telling me that I could do this.</p><p>I would also like to thank my parents, D.D. Sharma and Meeta Sharma, who taught me by example that nothing is impossible if you are ready to give everything to your goal. Without them, of course besides me being not born, I wouldn't even have the courage to learn, unlearn, re-learn.</p><p>Another person in my life whom I want to thank is my sister - Priyanka Shakdwipee - who  has been a constant support - all my life. Confidence, leadership, kindness, love and warmth are things I grasped from her.</p><p>The other person I want to thank is my daughter, Pahi Sharma(5 years old in 2020). She was very understanding of my need to work! She never bothered me when I made it clear that I needed to focus - which is really a big thing for her age. She was an inspiration because I wanted her to teach by example that there is no age to start learning, and we can learn and grow every moment of our lives.</p><p>The other thing, yes, its a thing, I would like to thank is the Internet - which made accessing material and learning very easy. Gone are the days when we had to sit for hours in library learning things. This is really powerful. Because now as I code and encounter errors that I don't understand, I can just Google it!! Its' a bliss to learn with information at our finger tips.</p><p>Thank You.</p> ";
 </script>
 
-<style type="text/css">
+<!-- <style type="text/css">
   @import "../styles/HomeStyle.css";
-</style>
+</style> -->
 
 <svelte:head>
   <title>Home</title>

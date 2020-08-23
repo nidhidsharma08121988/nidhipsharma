@@ -4,8 +4,8 @@
   export let segment;
 </script>
 
-<style lang="Scss">
-  @import "../ScssStyles/HomeStyle.scss";
+<style type="text/css" >
+  @import "../styles/NavigationBarStyle.css";
 </style>
 
 <Nav {segment} />

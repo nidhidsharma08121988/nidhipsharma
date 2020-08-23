@@ -15,9 +15,9 @@
   }
 </script>
 
-<style type="text/css">
+<!-- <style type="text/css">
   @import "../styles/HomeFinanceStyle.css";
-</style>
+</style> -->
 
 <svelte:head>
   <title>Financial Calculators</title>

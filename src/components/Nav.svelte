@@ -3,8 +3,8 @@
 </script>
 
 <style type="text/css">
-  @import "../styles/NavigationBarStyle.css";
-
+  /* @import "../styles/NavigationBarStyle.css"; */
+  
   [aria-current] {
     position: relative;
     display: inline-block;

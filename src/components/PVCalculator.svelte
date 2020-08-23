@@ -10,9 +10,9 @@
   }
 </script>
 
-<style type="text/css">
+<!-- <style type="text/css">
   @import "../styles/FinanceStyle.css";
-</style>
+</style> -->
 
 <div class="financecontent">
   <h2 class="heading">Present Value Calculator</h2>

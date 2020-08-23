@@ -5,31 +5,31 @@
       id: 0,
       value: "Home",
       link: ".",
-      target: "",
+      target: ""
     },
     {
       id: 1,
       value: "Reader's Delight",
       link: "https://shortstoriesbynidhi.home.blog/",
-      target: "_blank",
+      target: "_blank"
     },
     {
       id: 2,
       value: "Cook Book",
       link: "https://vegetarianhealthy.food.blog/",
-      target: "_blank",
+      target: "_blank"
     },
     {
       id: 3,
       value: "Financial Calculators",
       link: "finance",
-      target: "",
-    },
+      target: ""
+    }
   ];
 </script>
 
-<style lang="Scss">
-  @import "../ScssStyles/NavigationBarStyle.scss";
+<style type="text/css">
+  @import "../styles/NavigationBarStyle.css";
 </style>
 
 <div class="navigation">
