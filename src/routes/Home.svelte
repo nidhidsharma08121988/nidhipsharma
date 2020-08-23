@@ -7,8 +7,8 @@
     " A Mom | A Homemaker | A Cook | A Writer | A Dancer | A Freelancer | PGDM in Finance | Bachelors in Information Technology  ";
 </script>
 
-<style lang="Scss">
-  @import "../ScssStyles/HomeStyle.scss";
+<style type="text/css">
+  @import "../styles/HomeStyle.css";
 </style>
 
 <svelte:head>
