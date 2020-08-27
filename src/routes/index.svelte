@@ -22,7 +22,7 @@
     <img class="NidhiImage" src={imageSrc} alt="About Nidhi" />
   </div>
   <div class="aboutMeText">
-    <h3 class="subHead">Nidhi Sharma</h3>
+    <h3 class="subHead">About Nidhi Sharma</h3>
     <h4 class="subText">{sub}</h4>
     {@html about}
     <div class="credits">
