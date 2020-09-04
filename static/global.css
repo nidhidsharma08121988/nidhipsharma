@@ -169,33 +169,48 @@ body {
 /*NAVIGATION STYLE*/
 
 .navigation{
+    padding:0px;
+    display:block;
     width:100%;
-    height:70px;
-    background-color: white;   
+    height: 70px;
+    background-color: white; 
+    box-sizing: border-box;  
 }
 
 .navItem{
+    box-sizing: border-box; 
     display:inline-block;
+    position: relative;
+    margin-top:0px;
     width:20%;
     height:100%;
     color:#2F4F4F;
     text-align: center;
-    padding:20px;
+    vertical-align: top;
     transition: 0.4s;
     border:none;
     text-decoration: none;
+}
+.navItem::after{
+    position: absolute;
+    content: "";
+    width: calc(100% - 1em);
+    height: 2px;
+    display: block;
+    bottom: -1px;
 }
 
 .navItem:hover{
     background-color:#B0E0E6;
     opacity: 1;
-    border-bottom:3px solid darkorange;
+    border-bottom:2px solid darkorange;
     color: black;
 }
 
+
 @media screen and (max-width: 767px){
     .navItem{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     .tabItem{
         font-size:0.5rem;
@@ -212,7 +227,6 @@ body {
     .submitButtonFinance{
         font-size:0.5rem;
     }
-
 
 }
 @media screen and (min-width: 767px){

@@ -3,27 +3,23 @@
 </script>
 
 <style type="text/css">
-  /* @import "../styles/NavigationBarStyle.css"; */
-  
-  [aria-current] {
+  /* [aria-current] {
     position: relative;
     display: inline-block;
-  }
-
+  } */
+  /* 
   [aria-current]::after {
     position: absolute;
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-
     display: block;
     bottom: -1px;
-  }
+  } */
 </style>
 
 <nav>
   <div class="navigation">
-
     <a
       class="navItem"
       aria-current={segment === undefined ? 'page' : undefined}
@@ -56,6 +52,5 @@
       href="calculator">
       Financial Calculators
     </a>
-
   </div>
 </nav>
