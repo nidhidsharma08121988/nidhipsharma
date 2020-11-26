@@ -102,12 +102,40 @@ body {
 
 /* HOME STYLE*/
 
+.projects-about{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    
+}
+.proj-title{
+    color:darkorange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.projects{
+    width:10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ /* overflow-x: scroll;
+ overflow-y: hidden;    */
+}
+
+.proj{
+    margin:10%;
+    width:200px;
+    height:200px;
+    border-radius:30px;
+ }
 .aboutMeSection{
-   width:100%;
+   width:90%;
    display:flex;
    flex-direction: column;
    justify-items: center;
    justify-content: center;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 
@@ -117,6 +145,7 @@ body {
    height: 20%;
   justify-content: center;
   text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
  }
 
@@ -129,10 +158,8 @@ body {
 }
 
 .NidhiImage{
-
-   width:20%;
-   height:20%;
-   position:relative;;
+   width:150px;
+   height:150px;
    border-radius: 50%;
    margin: 0 auto;
    
@@ -147,6 +174,8 @@ body {
     flex-direction: column;
     justify-items: center;  
     text-align: justify;  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .subHead{
@@ -156,28 +185,37 @@ body {
    flex-direction: column;
    justify-items: center;
    text-align: justify;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .credits{
     font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
   
 }
 .creditshead{
    color:darkorange;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*NAVIGATION STYLE*/
 
 .navigation{
+
     padding:0px;
     display:block;
     width:100%;
-    height: 70px;
+    height: 50px;
     background-color: white; 
     box-sizing: border-box;  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .navItem{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     box-sizing: border-box; 
     display:inline-block;
     position: relative;
@@ -211,43 +249,59 @@ body {
 @media screen and (max-width: 767px){
     .navItem{
         font-size: 0.6rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .tabItem{
         font-size:0.5rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .aboutMeText{
         font-size: 0.5rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .aboutMeHead{
         font-size: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .financecontent{
         font-size:0.5rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .submitButtonFinance{
         font-size:0.5rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
 }
 @media screen and (min-width: 767px){
     .navItem{
         font-size: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .tabItem{
         font-size:1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
    .aboutMeText{
         font-size: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .aboutMeHead{
         font-size: 1.5rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
     }
     .financecontent{
         font-size:1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
     }
     .submitButtonFinance{
         font-size:1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
     }
 
 }

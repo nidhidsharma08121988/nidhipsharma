@@ -1,5 +1,14 @@
+
 <script>
   export let imageSrc = "nidhi.jpg";
+  // export let pImage="pomodoro.png";
+  // export let calImage="calculator.png";
+  // export let drumImage="drum machine.png";
+  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import calculator from  'svelte-awesome/icons/calculator';
+  import drum from 'svelte-awesome/icons/music';
+  import timer from 'svelte-awesome/icons/clock-o';
+
   let about =
     "<p>This is the most difficult question for me to answer in any interview because I don't think anyone can know oneself completely. Truly speaking, I have outperformed at things I thought I would really suck at!! For example, I never cooked in my life and I thought I would be the worst cook ever, if and when I did cook, but once I got myself into it I actually was better than I expected myself to be, so much so, that I have my own food blog! The thing I learnt through this is never to say 'No' to learning and experimenting.</p><p> I did my bachelors in IT field but when given an opportunity to learn finance during MBA, I took that chance and did fine. Later I got an opportunity to work as a freelance HR professional, which I did with complete honesty. I did that for 3 months.</p><p> I firmly believe that your hard work, dedication and consistent effort always pays. I am a person who likes to do her job better than she did yesterday. I like to evolve by means of constant learning, changing my ways when its required (and even my field !!), and by being frank about what 'I don't know'. Every human has the capacity to be great. Its our own inhibitions that stops our growth. The only thing I want to achieve is to grow to the fullest of my capacity.</p>";
   let sub =
@@ -15,19 +24,29 @@
 <svelte:head>
   <title>Home</title>
 </svelte:head>
-
+<div class="projects-about">
+  <div class="projects">
+     <h2 class="proj-title">Projects</h2>
+    <a href="https://codepen.io/nidhidsharma08121988/full/RwRzLNO" target="\_blank"><Icon style="color:white;" scale="2" data={timer} title="Pomodoro Timer"/></a>
+    <div style="height:20px;"></div>
+    <a href="https://codepen.io/nidhidsharma08121988/full/zYBMxbv" target="\_blank"><Icon style="color:white;" scale="2" data={calculator} title="Javascript Calculator"/></a>
+    <div style="height:20px;"></div>
+    <a href="https://codepen.io/nidhidsharma08121988/full/eYzPYzr" target="\_blank"><Icon style="color:white;" scale="2" data={drum} title="Drum Machine"/></a>
+    <div style="height:20px;"></div>
+  </div>
 <div class="aboutMeSection">
   <h2 class="aboutMeHead">About Me</h2>
   <div class="imageContainer">
     <img class="NidhiImage" src={imageSrc} alt="About Nidhi" />
   </div>
   <div class="aboutMeText">
-    <h3 class="subHead">About Nidhi Sharma</h3>
+    <h3 class="subHead">Nidhi Sharma</h3>
     <h4 class="subText">{sub}</h4>
     {@html about}
     <div class="credits">
       <h3 class="creditshead">Credits</h3>
       {@html credits}
     </div>
+  </div>
   </div>
 </div>
